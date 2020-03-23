@@ -7,4 +7,5 @@ function setup() {
 
 function draw() {
     image(video, 0, 0, width, width * video.height / video.width);
+    filter(INVERT);
 }
