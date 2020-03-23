@@ -1,4 +1,4 @@
-let width = 800, height = 600;
+let width = screen.width, height = screen.height;
 let video;
 function setup() {
     createCanvas(width, height);
