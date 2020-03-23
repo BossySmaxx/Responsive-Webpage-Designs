@@ -2,7 +2,7 @@ let width = 800, height = 600;
 let video;
 function setup() {
     createCanvas(width, height);
-    video = createCapture(VIDEO);
+    video = createCapture(VIDEO, 320, 240);
 }
 
 function draw() {
